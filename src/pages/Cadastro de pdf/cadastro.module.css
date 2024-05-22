@@ -1,0 +1,32 @@
+.section {
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.section form {
+
+    margin-top: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.div p {
+    text-align: center;
+}
+
+.div input {
+    width: calc(50% - 5px); /* Calcula a largura dos inputs considerando o espaçamento */
+}
